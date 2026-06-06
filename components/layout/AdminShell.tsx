@@ -7,7 +7,7 @@ const nav = [
   { label: "Төлөвлөгөө", href: "/admin/plans", icon: CalendarDays, sub: "Сарын plan" },
   { label: "Эрх / Багц", href: "/admin/credits", icon: Coins, sub: "Credits" },
   { label: "Cron Jobs", href: "/admin/cron", icon: RotateCcw, sub: "Автомат ажил" },
-  { label: "Нийтлэлүүд", href: "/admin/logs", icon: FileText, sub: "Published" },
+  { label: "Нийтлэлүүд", href: "/admin/history", icon: FileText, sub: "Published" },
   { label: "Темплейт", href: "/admin/templates", icon: Layers3, sub: "Creative" },
 ];
 
