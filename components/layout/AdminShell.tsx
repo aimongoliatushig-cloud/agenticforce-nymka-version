@@ -6,7 +6,7 @@ const nav = [
   { label: "Брэндүүд", href: "/admin/brands", icon: Store, sub: "Брэнд хянах" },
   { label: "Төлөвлөгөө", href: "/admin/plans", icon: CalendarDays, sub: "Сарын plan" },
   { label: "Эрх / Багц", href: "/admin/credits", icon: Coins, sub: "Credits" },
-  { label: "Cron Jobs", href: "/admin/cron", icon: RotateCcw, sub: "Автомат ажил" },
+  { label: "Автомат ажил", href: "/admin/cron", icon: RotateCcw, sub: "Cron / queue" },
   { label: "Нийтлэлүүд", href: "/admin/history", icon: FileText, sub: "Published" },
   { label: "Темплейт", href: "/admin/templates", icon: Layers3, sub: "Creative" },
 ];
@@ -31,7 +31,7 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
           })}
         </nav>
         <div className="absolute bottom-4 left-4 right-4 space-y-3">
-          <div className="rounded-2xl border border-emerald-400/15 bg-emerald-400/10 p-3 text-sm font-semibold text-emerald-200">● Cron online</div>
+          <div className="rounded-2xl border border-emerald-400/15 bg-emerald-400/10 p-3 text-sm font-semibold text-emerald-200">● Automation online</div>
           <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.04] p-3"><UserRound className="h-5 w-5 text-violet-200" /><span><b className="block text-sm">Admin Operator</b><span className="text-xs text-white/45">AI content factory</span></span></div>
         </div>
       </aside>
